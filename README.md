@@ -136,8 +136,9 @@ You will either need to run as root (not recommended) or modify your system to a
 
 and add:
 
-    SUBSYSTEM=="usb", ATTR{idVendor}=="1267", ATTR{idProduct}=="0000", MODE:="0666"
+    SUBSYSTEM=="usb", ATTR{idVendor}=="1267", ATTR{idProduct}=="0001", MODE:="0666"
 
+Note: idProduct can vary (0000, 00001, etc.) - check via lsusb terminal command
 Plug in the device and you should be able to access it. Tested on Ubuntu and Mint Linux versions.
 
 ## License
