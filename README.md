@@ -152,10 +152,6 @@ Note: idProduct can vary (0000, 00001, etc.).
 You can check these via **lsusb** terminal command.
 
 
-Note: **idProduct** can vary (0000, 0001, etc.).
-You can check these via the **lsusb** terminal command.
-
-
 Plug in the device and you should be able to access it. Tested on Ubuntu and Mint Linux versions.
 
 ## License
